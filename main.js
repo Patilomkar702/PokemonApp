@@ -258,7 +258,7 @@ class PokemonComponent {
     }
 }
 PokemonComponent.ɵfac = function PokemonComponent_Factory(t) { return new (t || PokemonComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_pokemon_service__WEBPACK_IMPORTED_MODULE_1__["PokemonService"])); };
-PokemonComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PokemonComponent, selectors: [["app-pokemon"]], inputs: { pokemon: ["PokeMonData", "pokemon"] }, decls: 1, vars: 1, consts: [[4, "ngIf"], ["class", "card m-1 bg-dark bg-gradient bg-opacity-50", "style", "width: 18rem;", 3, "click", 4, "ngIf", "ngIfElse"], ["showDetailsCard", ""], [1, "card", "m-1", "bg-dark", "bg-gradient", "bg-opacity-50", 2, "width", "18rem", 3, "click"], [1, "card-img-top", 3, "src"], [1, "card-body", "bg-dark", "bg-opacity-75", "pe"], [1, "card-title", "text-center", "fw-bolder", "text-warning"], [1, "card", "m-1", "bg-dark", "bg-gradient", "bg-opacity-70", 2, "width", "18rem"], ["href", "#", 1, "navbar-brand", "text-warning", "m-1", "p-0"], ["alt", "Logo", "width", "40", "height", "40", 1, "d-inline-block", "align-text-center", 3, "src"], [1, "list-group", "list-group-flush"], [4, "ngIf", "ngIfElse"], ["detailsLoaded", ""], [1, "card-footer", "pe", "text-danger", "text-center", "m-2", 3, "click"], [1, "list-group-item"], [1, "list-group-item", "d-flex", "justify-content-evenly", "align-items-center"], [1, "fw-bolder", "d-flex", "justify-content-evenly", "align-items-center"], [1, "fw-semibold", "d-flex", "justify-content-evenly", "align-items-center"]], template: function PokemonComponent_Template(rf, ctx) { if (rf & 1) {
+PokemonComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PokemonComponent, selectors: [["app-pokemon"]], inputs: { pokemon: ["PokeMonData", "pokemon"] }, decls: 1, vars: 1, consts: [[4, "ngIf"], ["class", "card m-1 bg-dark bg-gradient bg-opacity-50 pe", "style", "width: 18rem;", 3, "click", 4, "ngIf", "ngIfElse"], ["showDetailsCard", ""], [1, "card", "m-1", "bg-dark", "bg-gradient", "bg-opacity-50", "pe", 2, "width", "18rem", 3, "click"], [1, "card-img-top", 3, "src"], [1, "card-body", "bg-dark", "bg-opacity-75"], [1, "card-title", "text-center", "fw-bolder", "text-warning"], [1, "card", "m-1", "bg-dark", "bg-gradient", "bg-opacity-70", 2, "width", "18rem"], ["href", "#", 1, "navbar-brand", "text-warning", "m-1", "p-0"], ["alt", "Logo", "width", "40", "height", "40", 1, "d-inline-block", "align-text-center", 3, "src"], [1, "list-group", "list-group-flush"], [4, "ngIf", "ngIfElse"], ["detailsLoaded", ""], [1, "card-footer", "pe", "text-danger", "text-center", "m-2", 3, "click"], [1, "list-group-item"], [1, "list-group-item", "d-flex", "justify-content-evenly", "align-items-center"], [1, "fw-bolder", "d-flex", "justify-content-evenly", "align-items-center"], [1, "fw-semibold", "d-flex", "justify-content-evenly", "align-items-center"]], template: function PokemonComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, PokemonComponent_ng_container_0_Template, 4, 2, "ng-container", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isLoaded);
@@ -313,25 +313,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _pokemon_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pokemon.service */ "MWxk");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "ofXK");
-/* harmony import */ var _pokemon_pokemon_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pokemon/pokemon.component */ "Cmgf");
+/* harmony import */ var ngx_pagination__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-pagination */ "oOf3");
+/* harmony import */ var _pokemon_pokemon_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pokemon/pokemon.component */ "Cmgf");
+
 
 
 
 
 function AppComponent_ng_container_10_app_pokemon_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-pokemon", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-pokemon", 12);
 } if (rf & 2) {
     const pokemon_r4 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("PokeMonData", pokemon_r4);
 } }
+const _c0 = function (a1) { return { itemsPerPage: 10, currentPage: a1 }; };
 function AppComponent_ng_container_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_ng_container_10_app_pokemon_1_Template, 1, 1, "app-pokemon", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, AppComponent_ng_container_10_app_pokemon_1_Template, 1, 1, "app-pokemon", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "paginate");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r0.pokemons);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](2, 1, ctx_r0.pokemons, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c0, ctx_r0.pageNo)));
 } }
 function AppComponent_ng_template_11_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, " Loading ");
@@ -340,6 +344,7 @@ class AppComponent {
     constructor(pokemonSer) {
         this.title = 'Pokemon';
         this.pokemons = [];
+        this.pageNo = 1;
         pokemonSer.getPokemons(900).subscribe((data) => {
             this.pokemons = data.results;
             // console.log(this.pokemons);
@@ -347,23 +352,28 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_pokemon_service__WEBPACK_IMPORTED_MODULE_1__["PokemonService"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 13, vars: 2, consts: [[1, "container-fluid", "p-0", "bg-dark", "bg-gradient", "bg-opacity-75"], [1, "navbar", "sticky-top", "bg-dark", "bg-gradient"], [1, "container-fluid"], ["href", "#", 1, "navbar-brand", "text-info"], ["src", "../Pokemons/assets/pokemon-Ball.png", "alt", "pokemonLogo", "width", "30", "height", "30", 1, "d-inline-block", "align-text-top"], [1, "text-warning"], [1, "container-fluid", "d-flex", "justify-content-evenly", "align-items-center", "flex-wrap", "mt-1"], [4, "ngIf", "ngIfElse"], ["elseBlock", ""], [3, "PokeMonData", 4, "ngFor", "ngForOf"], [3, "PokeMonData"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 15, vars: 2, consts: [[1, "container-fluid", "p-0", "bg-dark", "bg-gradient", "bg-opacity-75"], [1, "navbar", "sticky-top", "bg-dark", "bg-gradient"], [1, "container-fluid"], ["href", "#", 1, "navbar-brand", "text-info"], ["src", "../assets/pokemon-Ball.png", "alt", "pokemonLogo", "width", "30", "height", "30", 1, "d-inline-block", "align-text-top"], [1, "text-warning"], [1, "container-fluid", "d-flex", "justify-content-evenly", "align-items-center", "flex-wrap", "mt-1"], [4, "ngIf", "ngIfElse"], ["elseBlock", ""], [1, "container", "d-flex", "justify-content-evenly", "align-items-center", "mt-1"], [3, "pageChange"], [3, "PokeMonData", 4, "ngFor", "ngForOf"], [3, "PokeMonData"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "a", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Pokemon ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Pokemons ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "- For Mayank Sawant ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "- Omkar ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "main");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, AppComponent_ng_container_10_Template, 2, 1, "ng-container", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, AppComponent_ng_container_10_Template, 3, 6, "ng-container", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, AppComponent_ng_template_11_Template, 1, 0, "ng-template", null, 8, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "pagination-controls", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("pageChange", function AppComponent_Template_pagination_controls_pageChange_14_listener($event) { return ctx.pageNo = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -371,7 +381,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.pokemons.length > 0)("ngIfElse", _r1);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _pokemon_pokemon_component__WEBPACK_IMPORTED_MODULE_3__["PokemonComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], ngx_pagination__WEBPACK_IMPORTED_MODULE_3__["PaginationControlsComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _pokemon_pokemon_component__WEBPACK_IMPORTED_MODULE_4__["PokemonComponent"]], pipes: [ngx_pagination__WEBPACK_IMPORTED_MODULE_3__["PaginatePipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
 
 
 /***/ }),
@@ -391,7 +401,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "Sy1n");
 /* harmony import */ var _pokemon_pokemon_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pokemon/pokemon.component */ "Cmgf");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var ngx_pagination__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-pagination */ "oOf3");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
 
 
 
@@ -401,16 +413,18 @@ __webpack_require__.r(__webpack_exports__);
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjector"]({ providers: [], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineInjector"]({ providers: [], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClientModule"]
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClientModule"],
+            ngx_pagination__WEBPACK_IMPORTED_MODULE_5__["NgxPaginationModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
         _pokemon_pokemon_component__WEBPACK_IMPORTED_MODULE_4__["PokemonComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-        _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClientModule"]] }); })();
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClientModule"],
+        ngx_pagination__WEBPACK_IMPORTED_MODULE_5__["NgxPaginationModule"]] }); })();
 
 
 /***/ }),
@@ -426,17 +440,22 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineInjector
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "tyNb");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
 
-const routes = [];
+
+const routes = [
+    { path: "", pathMatch: "full", redirectTo: "pokemons" },
+    { path: "pokemons", component: _app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"] }
+];
 class AppRoutingModule {
 }
 AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); };
-AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
-AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
+AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
+AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
 
 
 /***/ }),
