@@ -338,7 +338,7 @@ function AppComponent_ng_container_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](2, 1, ctx_r0.pokemons, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](4, _c0, ctx_r0.pageNo)));
 } }
 function AppComponent_ng_template_11_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, " Loading ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, " Loading.. ");
 } }
 class AppComponent {
     constructor(pokemonSer) {
@@ -352,16 +352,16 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_pokemon_service__WEBPACK_IMPORTED_MODULE_1__["PokemonService"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 15, vars: 2, consts: [[1, "container-fluid", "p-0", "bg-dark", "bg-gradient", "bg-opacity-75"], [1, "navbar", "sticky-top", "bg-dark", "bg-gradient"], [1, "container-fluid"], ["href", "#", 1, "navbar-brand", "text-info"], ["src", "../Pokemon/assets/pokemon-Ball.png", "alt", "pokemonLogo", "width", "30", "height", "30", 1, "d-inline-block", "align-text-top"], [1, "text-warning"], [1, "container-fluid", "d-flex", "justify-content-evenly", "align-items-center", "flex-wrap", "mt-1"], [4, "ngIf", "ngIfElse"], ["elseBlock", ""], [1, "container", "d-flex", "justify-content-evenly", "align-items-center", "mt-1"], [3, "pageChange"], [3, "PokeMonData", 4, "ngFor", "ngForOf"], [3, "PokeMonData"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 15, vars: 2, consts: [[1, "container-fluid", "p-0", "bg-dark", "bg-gradient", "bg-opacity-75"], [1, "navbar", "sticky-top", "bg-dark", "bg-gradient"], [1, "container-fluid"], ["href", "#", 1, "navbar-brand", "text-info"], ["src", "./Pokemon/assets/pokemon-Ball.png", "alt", "pokemonLogo", "width", "30", "height", "30", 1, "d-inline-block", "align-text-top"], [1, "text-warning"], [1, "container-fluid", "d-flex", "justify-content-evenly", "align-items-center", "flex-wrap", "mt-1"], [4, "ngIf", "ngIfElse"], ["elseBlock", ""], [1, "container", "d-flex", "justify-content-evenly", "align-items-center", "mt-1"], [3, "pageChange"], [3, "PokeMonData", 4, "ngFor", "ngForOf"], [3, "PokeMonData"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "a", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Pokemons ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Pokemon");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "- Omkar ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " -Omkar ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
